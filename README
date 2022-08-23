@@ -1,0 +1,8 @@
+A 5 step compiler to compile MacroJava(subset of Java) programs into MIPS assembly.
+Use SPIM compiler to compile the MIPS output.
+
+Phase-1 --> Lexical analysis and Parsing using Flex and Bison
+Phase 2 --> Semantic Checking and Type Checking 
+Phase 3 --> IR generation, Generates MicroIR
+Phase 4 --> Register allocation , Generates MiniRA
+Phase 5 --> Translate into MIPS assembly
